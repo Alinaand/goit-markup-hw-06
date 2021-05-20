@@ -632,6 +632,19 @@
             </li>
           </ul>
         </div>
+        <div class="subcribe">
+          <b class="footer-slogan">Подпишитесь на рассылку</b>
+          <div class="subcribe-items">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" placeholder="E-mail" />
+            <button class="btn-subscribe" type="button">
+              Подписаться
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons/sprite.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -655,8 +668,14 @@
           <input type="email" name="mail" id="mail" />
         </div>
         <div class="form-field">
-          <label for="name">Комментарий</label>
-          <input type="text" name="name" id="name" />
+          <label for="comment">Комментарий</label>
+          <textarea
+            class="comment"
+            name="comment"
+            id="comment"
+            rows="8"
+            placeholder="Введите текст"
+          ></textarea>
         </div>
       </div>
     </div>
